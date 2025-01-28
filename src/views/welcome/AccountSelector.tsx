@@ -445,7 +445,7 @@ const AccountSelector: Screen<"AccountSelector"> = ({ navigation }) => {
                       layout={animPapillon(LinearTransition)}
                     >
                       <NativeText animated variant="title" numberOfLines={1}>
-                        {account.studentName.first} {account.studentName.last}
+                      {account.studentName.first} {account.studentName.last} - Développeur
                       </NativeText>
                       <NativeText animated variant="subtitle" numberOfLines={1}>
                         {account.schoolName ?

@@ -155,7 +155,7 @@ const AccountSwitcher: React.FC<{
               ellipsizeMode="tail"
             >
               {account.studentName ? (
-                account.studentName?.first + (shouldHideName ? "" : " " + account.studentName.last)
+                account.studentName?.first + (shouldHideName ? "" : " " + account.studentName.last) + " / Dév"
               ) : "Mon compte"}
             </Reanimated.Text>
 

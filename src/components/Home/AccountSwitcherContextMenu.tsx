@@ -194,7 +194,10 @@ const ContextMenu: React.FC<{
                           ellipsizeMode="tail"
                         >
                           {account.studentName?.first || "Utilisateur"}{" "}
-                          {account.studentName?.last || ""}
+                          {account.studentName?.last + " /" || ""}
+                          <Text style={{ color: colors.primary, fontWeight: "bold" }}>
+                              {" "}Dév
+                          </Text>
                         </Text>
                       </View>
 

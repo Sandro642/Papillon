@@ -134,7 +134,7 @@ const AccountContainerCard = ({ account, onPress }: {
                   fontSize: 18,
                   fontFamily: "semibold",
                   maxWidth: "85%",
-                }}>{!(account.isExternal) ? account.studentName.first : undefined} {!(account.isExternal) ? account.studentName?.last : undefined}</Text>
+                }}>{!(account.isExternal) ? account.studentName.first : undefined} {!(account.isExternal) ? account.studentName?.last + "Developpeur" : undefined}</Text>
               {!(account.isExternal) && account.className && <View
                 style={{
                   backgroundColor: theme.dark ? colors.primary + "60" : colors.primary + "40",
